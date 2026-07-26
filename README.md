@@ -404,49 +404,5 @@ Free consultations are available for all service lines, including AI.
 
 ---
 
-## The Website
-
-This repository is the **www.pragmainfo.com** corporate website — a plain PHP application with no framework and no build step.
-
-### Pages
-
-| Page | File | Content |
-|---|---|---|
-| Home | [index.php](index.php) | Hero, why-choose-us, about preview, services preview, AI teaser, 4-step process, testimonials, clients |
-| About | [about.php](about.php) | Who we are, mission/vision/values, what we do, tech expertise, stats |
-| Services | [services.php](services.php) | 10-service overview grid + detailed accordion (anchors `#b2b` `#crm` `#ge` `#mobile` `#bi` `#testing` `#mobility` `#bpm` `#ecommerce` `#appdev`) |
-| AI Solutions | [ai.php](ai.php) | AI agents, Health Care Navigator case study, generative AI journey, industry applications |
-| Contact | [contact.php](contact.php) | Info cards, inquiry form, Google Map, direct contact details |
-| Privacy Policy | [privacy.php](privacy.php) | Data collection and usage policy |
-| Terms of Service | [terms.php](terms.php) | Effective May 6, 2026 · governed by Texas law |
-| Error | [error.php](error.php) | Single page serving all HTTP error codes |
-
-Shared page furniture lives in [includes/](includes/) — `header.php` (meta + navbar), `footer.php`, `clients.php` (partner logo strip), and `db.php` (database connection).
-
-### Stack
-
-Apache + PHP 7.0 or newer, MySQL/MariaDB via PDO, Bootstrap 5.3 and Font Awesome 6 from CDN, WOW.js + Animate.css for scroll animations, Google Fonts (Inter + Poppins). Custom styling in `css/custom.css`, custom behavior in `js/custom.js`.
-
-### Contact Form
-
-`contact.php` → [send.php](send.php) → MySQL `contact_submissions` table + email to info@pragmainfo.com. The handler validates input, screens spam with a hidden honeypot field, and **always writes to the database before attempting to send mail**, so no inquiry is lost to a mail failure. The table is created automatically on first connection by [includes/db.php](includes/db.php).
-
-### Admin Dashboard
-
-`/admin/login.php` — a lightweight console for managing inquiries: stat cards (total, unread, last 7 days), All/Unread/Read filters, 15-per-page pagination, single-submission view that marks items read, and CSRF-protected delete. Sessions use a dedicated name with ID regeneration on login.
-
-### Setup
-
-1. Serve the directory from Apache with PHP and MySQL running.
-2. Create the database, then set `DB_*` constants in [includes/db.php](includes/db.php).
-3. Set `ADMIN_USERNAME` / `ADMIN_PASSWORD` in [admin/config.php](admin/config.php).
-4. **Rename `.htaccessX` to `.htaccess`** — the navbar and footer use extensionless URLs (`href="about"`), which only resolve through the rewrite rules in that file. It also enables the unified error page, security headers, gzip, and cache policy. HTTPS forcing is present but commented out; uncomment once a certificate is installed.
-5. Configure SMTP for PHP's `mail()` — without it, submissions still save to the database but email delivery fails.
-
-### Maintenance Notes
-
-**Security** — the database password sits in [includes/db.php](includes/db.php) and the admin password is a plaintext constant in [admin/config.php](admin/config.php); move both out of source and hash the admin password with `password_hash()`. `includes.zip` is a backup archive sitting in the public web root and should be removed. Login has no rate limiting.
-
-**Known issue** — the contact form's HTML `action` points at `contact.php`, which has no POST handler; the working path is the AJAX call to `send.php` in `js/custom.js`. With JavaScript disabled the form silently does nothing.
 
 **Content discrepancy** — [includes/footer.php](includes/footer.php) claims "2+ locations in the United States" while every other page states a single US office in Irving, TX. Worth aligning.
