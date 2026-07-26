@@ -403,6 +403,3 @@ A structured, transparent approach that keeps every project on time, on scope, a
 Free consultations are available for all service lines, including AI.
 
 ---
-
-
-**Content discrepancy** — [includes/footer.php](includes/footer.php) claims "2+ locations in the United States" while every other page states a single US office in Irving, TX. Worth aligning.
