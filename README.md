@@ -2,7 +2,7 @@
 
 **Building Smarter & Highly Usable Solutions**
 
-Pragma Info Systems is a premier IT solutions and staffing firm headquartered in Irving, Texas. Founded over two decades ago, the company serves clients ranging from mid-size businesses to Fortune 500 companies across the United States — combining integrity, wisdom, and deep technology expertise to deliver measurable business value.
+Pragma Info Systems is a premier IT solutions and services firm headquartered in Irving, Texas. Founded over two decades ago, the company serves clients ranging from mid-size businesses to Fortune 500 companies across the United States — combining integrity, wisdom, and deep technology expertise to deliver measurable business value.
 
 The company operates at the intersection of **people, process, and technology**: connecting the right talent with the right opportunity, and building technology solutions that create real, measurable outcomes.
 
@@ -26,7 +26,7 @@ The company operates at the intersection of **people, process, and technology**:
   - [8. BPM & SOA](#8-bpm--soa--business-process-management)
   - [9. E-Commerce Solutions](#9-e-commerce-solutions)
   - [10. Application Development (ERP, SAP, Oracle, IBM)](#10-application-development-erp-crm-sap-oracle-ibm)
-  - [11. IT Staffing & Workforce Solutions](#11-it-staffing--workforce-solutions)
+  - [11. IT Services & Workforce Solutions](#11-it-services--workforce-solutions)
 - [AI Solutions & Generative AI](#ai-solutions--generative-ai)
 - [Industries Served](#industries-served)
 - [Technology & Platform Expertise](#technology--platform-expertise)
@@ -86,7 +86,7 @@ To be the most trusted IT solutions partner in the United States, recognized for
 - **US office in Irving, TX** — nationwide coverage with local expertise.
 - **Top-tier talent**, vetted and ready to deploy.
 - **Agile delivery** on every project — transparency, speed, and measurable results.
-- **End-to-end IT staffing** — contract, contract-to-hire, permanent placement, and executive search.
+- **End-to-end IT services** — contract, contract-to-hire, permanent placement, and executive search.
 - **Deep platform expertise** across SAP, Oracle, IBM, Microsoft, and open-source stacks.
 
 ---
@@ -107,7 +107,7 @@ Pragma Info Systems delivers **10+ specialized services** covering end-to-end te
 | 8 | BPM & SOA | Process automation, integration architecture |
 | 9 | E-Commerce | B2B/B2C platforms, PCI DSS, omni-channel |
 | 10 | Application Development | ERP, SAP, Oracle, IBM, .NET, cloud-native |
-| 11 | IT Staffing & Workforce | Contract to executive search |
+| 11 | IT Services & Workforce | Contract to executive search |
 
 ---
 
@@ -253,11 +253,11 @@ Our application development team builds enterprise-grade solutions on the world'
 
 ---
 
-### 11. IT Staffing & Workforce Solutions
+### 11. IT Services & Workforce Solutions
 
 We connect businesses with top IT talent and deliver end-to-end workforce solutions tailored to your industry — covering the full hiring spectrum:
 
-- Contract staffing
+- Contract services
 - Contract-to-hire
 - Permanent placement
 - Executive search
@@ -375,7 +375,7 @@ A structured, transparent approach that keeps every project on time, on scope, a
 
 ## Client Testimonials
 
-> "Pragma Info Systems transformed our IT staffing process. They delivered highly qualified engineers within days, not weeks. Our project velocity improved by 40%."
+> "Pragma Info Systems transformed our IT services process. They delivered highly qualified engineers within days, not weeks. Our project velocity improved by 40%."
 > — **James Mitchell**, CTO, DataStream Corp ★★★★★
 
 > "The BI dashboard they built for us consolidated data from 12 sources into a single pane of glass. Leadership can now make decisions in hours instead of days."
@@ -398,7 +398,7 @@ A structured, transparent approach that keeps every project on time, on scope, a
 | **Hours** | Monday – Friday, 9:00 AM – 6:00 PM CST |
 | **Social** | LinkedIn · X (Twitter) · Facebook · YouTube |
 
-**Inquiry topics** handled through the contact form: IT Staffing & Workforce · Software Development · Mobile Applications · Business Intelligence · E-Commerce Solutions · BPM & SOA · Partnership / Alliance · General Inquiry
+**Inquiry topics** handled through the contact form: IT Services & Workforce · Software Development · Mobile Applications · Business Intelligence · E-Commerce Solutions · BPM & SOA · Partnership / Alliance · General Inquiry
 
 Free consultations are available for all service lines, including AI.
 
